@@ -4,41 +4,108 @@
     padding: 0px;
     text-decoration: none;
     font-family: sans-serif;
-}
-
-body {
-    background-color: #e08733;
-    margin: 0px;
-}
-
-header {
-    background-color: yellow;
-}
-
-h1 {
-    background-color: red;
-    display: inline-block;
-    margin: 10px;
-    padding: 10px;
-    font-family: sans-serif;
-}
-
-nav {
-    background-color: green;
-}
-
-ul li {
-    display: inline-block;
     text-align: center;
 }
 
-a {
+body {
+    background-color: rgb(202, 148, 49);
+    margin: 0px;
+}
+
+p {
+    font-size: 16px;
+    margin: 10px;
+}
+
+img {
+    max-width: 100%;
+    margin: 10px 0px;
+}
+
+header {
+    background-color: rgb(105, 82, 38);
+    text-align: left;
+}
+
+header h1 {
     display: inline-block;
-    padding: 20px;
+    margin: 20px;
+    padding: 10px;
+    text-align: left;
+    width: 75%;
     color: white;
 }
 
-a:hover {
-    background-color: orange;
-    color: black;
+header h2 {
+    display: inline-block;
+    width: 20%;
+    color: white;
+}
+
+nav {
+    background-color:#80430b;
+    font-size: 0px;
+}
+
+nav ul li {
+    display: inline-block;
+    text-align: center;
+    font-size: 18px;
+}
+
+nav li a {
+    display: inline-block;
+    padding: 20px 100px;
+    color: white;
+}
+
+nav li a:hover {
+    background-color: #643408;
+}
+
+main {
+    background-color: #a37f3c;
+    margin: 20px 20px 0px 20px;
+    font-size: 0px;
+    padding: 10px;
+}
+
+main section#pancakes {
+    background-color: rgb(206, 126, 34);
+    display: inline-block;
+    font-size: 16px;
+    width: 50%;
+    padding: 20px;
+    border: solid rgb(48, 29, 8) 5px;
+    vertical-align: top;
+    
+}
+
+main section#pancakes .right {
+    width: 300px;
+    float: right;
+    margin: 20px;
+}
+
+main section#waffles {
+    background-color: rgb(206, 126, 34);
+    display: inline-block;
+    font-size: 16px;
+    width: 50%;
+    padding: 20px;
+    border: solid rgb(48, 29, 8) 5px;
+    border-left: none;
+    vertical-align: top;
+    height: 100%;
+}
+
+footer {
+    background-color: rgb(245, 234, 81);
+    margin: 0px 20px;
+}
+
+footer p {
+    text-align: left;
+    padding: 20px;
+    margin: 0px 10px 10px 10px;
 }
