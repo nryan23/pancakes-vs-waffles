@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #e08733;
+    margin: 0px;
+}
+
+header {
+    background-color: yellow;
+}
+
+h1 {
+    background-color: red;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    font-family: sans-serif;
+}
+
+nav {
+    background-color: green;
+}
+
+ul li {
+    display: inline-block;
+    text-align: center;
+}
+
+a {
+    display: inline-block;
+    padding: 20px;
+    color: white;
+}
+
+a:hover {
+    background-color: orange;
+    color: black;
+}
