@@ -126,6 +126,11 @@ main section#waffles {
     vertical-align: top;
 }
 
+main p #waffleNumber {
+    font-size: 20px;
+    font-weight: bold;
+}
+
 footer {
     background-color: #a37f3c;
     margin: 0px 20px 20px;
