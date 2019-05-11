@@ -48,15 +48,16 @@ nav {
 
 nav ul li {
     display: inline-block;
-    font-size: 18px;
-    text-align: left;
+    text-align: center;
     width: 25%;
 }
 
 nav li a {
+    font-size: 18px;
     display: inline-block;
     padding: 20px 100px;
     color: white;
+    width: 100%;
 }
 
 nav li a:hover {
@@ -75,6 +76,11 @@ main h2 {
     font-size: 36px;
 }
 
+main h3 {
+    font-size: 20px;
+    margin: 20px 0px;
+}
+
 main ul {
     margin: 20px;
 }
@@ -90,6 +96,11 @@ main .image {
 
 main img {
     max-width: 300px;
+}
+
+#nicRyanImg {
+    max-width: 150px;
+    display: inline-block;
 }
 
 main section#pancakes {
