@@ -110,11 +110,6 @@ main img {
     border: 3px dashed rgb(228, 162, 21);
 }
 
-#nicRyanImg {
-    max-width: 150px;
-    display: inline-block;
-}
-
 main section#pancakes {
     display: inline-block;
     font-size: 16px;
@@ -138,7 +133,7 @@ main section#waffles {
     vertical-align: top;
 }
 
-main p #waffleNumber {
+main p #waffleNumber, #pancakeNumber {
     font-size: 20px;
     font-weight: bold;
 }
